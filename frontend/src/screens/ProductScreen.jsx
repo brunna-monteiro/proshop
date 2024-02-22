@@ -7,7 +7,7 @@ import Loader from '../components/Loader.jsx';
 import Message from '../components/Message.jsx';
 import Rating from "../components/Rating";
 import { useGetProductDetailsQuery } from "../slices/productsApiSlice.js";
-import { UseDispatch, useDispatch } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { addToCart } from '../slices/cartSlice.js';
 
 const ProductScreen = () => {
